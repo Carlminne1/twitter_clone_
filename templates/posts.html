@@ -17,7 +17,7 @@
     <ul>
       {% for post in posts %}
       <li>
-        <img class="menu_icon js-menu-icon" src={%static 'img/menu.png' %} />
+        <img class="menu_icon js-menu-icon" src="{%static 'img/menu.png' %}" />
         <div class="menu">
           <a href="/delete/{{post.id}}">Delete</a><br>
           <a href="/edit/{{post.id}}">Edit</a>
